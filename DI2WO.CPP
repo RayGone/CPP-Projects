@@ -1,7 +1,9 @@
-#include <iostream.h>
+#include <iostream>
 #include <conio.h>
 #include <ctype.h>
 #include <string.h>
+
+using namespace std;
 
 class translator
 {
@@ -90,6 +92,7 @@ class translator
 				 engine();
 			}
 			end:
+				1;
 		}
 
 
@@ -250,9 +253,10 @@ class translator
 
 
 
-void main()
+int main()
 {
 	translator tt;
 	tt.translation();
 	getch();
+	return 1;
 }
