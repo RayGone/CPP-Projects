@@ -23,5 +23,3 @@ All the programs are tested only in turboC++..
 	- > tic-tac-toe is game. AI implemented, 
 		random-DFS is used for searching, 
 			and to make program play the game 
-
-	
